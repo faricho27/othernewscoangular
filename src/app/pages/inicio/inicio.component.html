@@ -1,0 +1,61 @@
+<section class="intro">
+  <h1>OtherNewsCO</h1>
+  <p>
+    En un mundo donde todo cambia en segundos, encontrar noticias claras, verificadas y oportunas puede ser todo un
+    reto. Por eso creamos este espacio: un lugar donde la actualidad nacional e internacional, la economía, la cultura
+    y el deporte se encuentran en un solo lugar, contados con rigor y sin rodeos.
+  </p>
+  <p>
+    Aquí no solo te informamos, te acompañamos a entender lo que pasa en el mundo. Cobertura las 24 horas, análisis a
+    fondo y un equipo comprometido con la verdad son la base de este noticiero digital que llegó para quedarse.
+  </p>
+</section>
+
+<section aria-labelledby="t-relevante">
+  <h2 id="t-relevante" class="titulo">Noticias de última hora</h2>
+
+  @if (service.error()) {
+    <p class="error-global" role="alert">
+      No pudimos cargar las noticias. Si estás en local, abre la app con <code>ng serve</code>.
+    </p>
+  } @else if (!service.cargado()) {
+    <p class="vacio">Cargando noticias…</p>
+  }
+
+  <div class="rejilla">
+    @for (n of relevantes(); track n.id) {
+      <app-noticia-card [noticia]="n" />
+    }
+  </div>
+</section>
+
+<section class="temas" aria-labelledby="t-temas">
+  <div class="temas-texto">
+    <h2 id="t-temas" class="titulo">Temas de interés</h2>
+    <ul class="temas-lista">
+      @for (t of service.temas(); track t.id) {
+        <li>
+          <a [routerLink]="['/noticias']" [queryParams]="{ categoria: t.categoria }">
+            <strong>{{ t.nombre }}</strong>
+            <span>{{ t.descripcion }}</span>
+          </a>
+        </li>
+      }
+    </ul>
+    <a class="btn btn-indigo" routerLink="/noticias">Conoce más aquí</a>
+  </div>
+  <img class="temas-img" src="img/temas.svg" alt="" />
+</section>
+
+<section id="opinion" aria-labelledby="t-opiniones">
+  <h2 id="t-opiniones" class="titulo">Opiniones de nuestros lectores</h2>
+  <div class="rejilla">
+    @for (o of service.opiniones(); track $index) {
+      <figure class="opinion">
+        <blockquote>“{{ o.texto }}”</blockquote>
+        <figcaption><strong>{{ o.autor }}</strong> {{ o.rol }}</figcaption>
+      </figure>
+    }
+  </div>
+  <app-formulario-opinion />
+</section>

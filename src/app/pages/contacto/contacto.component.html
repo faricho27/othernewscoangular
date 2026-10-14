@@ -1,0 +1,57 @@
+<section class="acerca">
+  <h1 class="titulo titulo-izq titulo-grande">Acerca de nosotros</h1>
+  <p>
+    Somos un medio digital comprometido con contar la actualidad tal como sucede: con rigor, agilidad y
+    responsabilidad. Nuestro equipo trabaja día a día para acercarte las noticias más relevantes en política,
+    economía, cultura, deportes y tecnología, tanto de Colombia como del resto del mundo.
+  </p>
+  <p>
+    Creemos que estar bien informado es un derecho, no un lujo. Por eso nos esforzamos en verificar cada dato,
+    contrastar cada fuente y presentar la información de forma clara y accesible para todos nuestros lectores.
+  </p>
+  <p>
+    Detrás de cada publicación hay un equipo de periodistas, editores y colaboradores apasionados por el oficio de
+    informar, que entienden que la confianza del público se construye con transparencia y compromiso con la verdad.
+    Gracias por hacer parte de esta comunidad y por confiar en nosotros como tu fuente diaria de noticias.
+  </p>
+</section>
+
+<section aria-labelledby="t-contacto">
+  <h2 id="t-contacto" class="titulo-indigo">Contáctanos</h2>
+
+  <form class="formulario" [formGroup]="form" (ngSubmit)="enviar()" novalidate>
+    <div class="fila">
+      <div class="campo">
+        <label for="c-nombre">Nombre</label>
+        <input id="c-nombre" formControlName="nombre" placeholder="Jane" autocomplete="given-name"
+               [attr.aria-invalid]="!!error('nombre')" aria-describedby="error-c-nombre" />
+        <p class="error" id="error-c-nombre">{{ error('nombre') }}</p>
+      </div>
+      <div class="campo">
+        <label for="c-apellido">Apellido</label>
+        <input id="c-apellido" formControlName="apellido" placeholder="Smitherton" autocomplete="family-name"
+               [attr.aria-invalid]="!!error('apellido')" aria-describedby="error-c-apellido" />
+        <p class="error" id="error-c-apellido">{{ error('apellido') }}</p>
+      </div>
+    </div>
+
+    <div class="campo">
+      <label for="c-email">Email</label>
+      <input id="c-email" type="email" formControlName="email" placeholder="correo@ejemplo.com" autocomplete="email"
+             [attr.aria-invalid]="!!error('email')" aria-describedby="error-c-email" />
+      <p class="error" id="error-c-email">{{ error('email') }}</p>
+    </div>
+
+    <div class="campo">
+      <label for="c-mensaje">Deja aquí tu mensaje</label>
+      <textarea id="c-mensaje" rows="6" formControlName="mensaje" placeholder="Escribe aquí tu mensaje, sugerencia o reclamo."
+                [attr.aria-invalid]="!!error('mensaje')" aria-describedby="error-c-mensaje"></textarea>
+      <p class="error" id="error-c-mensaje">{{ error('mensaje') }}</p>
+    </div>
+
+    <button class="btn btn-negro ancho" type="submit">Enviar</button>
+    @if (enviado()) {
+      <p class="estado" role="status">Recibimos tu mensaje. Te responderemos pronto.</p>
+    }
+  </form>
+</section>

@@ -1,0 +1,36 @@
+<h1 class="titulo titulo-izq">Noticias</h1>
+
+<div class="filtros">
+  <label for="filtro-categoria">Categoría</label>
+  <select id="filtro-categoria" [(ngModel)]="categoria">
+    <option value="">Todas las categorías</option>
+    @for (c of service.categorias(); track c) {
+      <option [value]="c">{{ c }}</option>
+    }
+  </select>
+
+  <label class="check">
+    <input type="checkbox" [(ngModel)]="soloFavoritas" />
+    Solo favoritas ({{ favoritos.total() }})
+  </label>
+</div>
+
+@if (service.error()) {
+  <p class="error-global" role="alert">No pudimos cargar las noticias.</p>
+} @else if (!service.cargado()) {
+  <p class="vacio">Cargando noticias…</p>
+} @else {
+  <div class="rejilla">
+    @for (n of filtradas(); track n.id) {
+      <app-noticia-card [noticia]="n" />
+    } @empty {
+      <p class="vacio">
+        @if (soloFavoritas()) {
+          Aún no tienes noticias favoritas. Toca «Guardar» en una noticia para verla aquí.
+        } @else {
+          No hay noticias en esta categoría.
+        }
+      </p>
+    }
+  </div>
+}

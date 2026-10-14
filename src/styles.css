@@ -1,0 +1,118 @@
+/* ==========================================================================
+   OtherNewsCO – estilos globales
+   Paleta tomada del mockup de la Entrega 1:
+   rosa #f8c4c4 · rosa fuerte #f0aaaa · rojo #d81010 · índigo #404098
+   ========================================================================== */
+:root {
+  --rosa: #f8c4c4;
+  --rosa-fuerte: #f0aaaa;
+  --rojo: #d81010;
+  --rojo-oscuro: #b00d0d;
+  --indigo: #404098;
+  --texto: #1f1f2e;
+  --gris: #5f5f6e;
+  --borde: #e5e5e7;
+  --error: #b00020;
+  --radio: 8px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; font-family: Inter, system-ui, sans-serif; color: var(--texto); line-height: 1.6; background: #fff; }
+img { max-width: 100%; display: block; }
+a { color: var(--indigo); }
+:focus-visible { outline: 3px solid var(--indigo); outline-offset: 2px; }
+.contenedor { width: min(1100px, 100% - 2rem); margin-inline: auto; }
+.saltar { position: absolute; left: -999px; background: #fff; padding: .5rem 1rem; }
+.saltar:focus { left: 1rem; top: 1rem; z-index: 10; }
+
+/* Encabezado */
+.cabecera { background: var(--rosa); }
+.cabecera-interna { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .5rem; padding-block: .8rem; }
+.logo { color: var(--indigo); font-weight: 800; text-decoration: none; font-size: 1.1rem; }
+.cabecera ul { display: flex; gap: .25rem; list-style: none; margin: 0; padding: 0; }
+.cabecera nav a { display: block; padding: .45rem 1.1rem; border-radius: var(--radio); text-decoration: none; font-weight: 600; color: var(--indigo); }
+.cabecera nav a.activo { background: var(--rojo); color: #fff; }
+
+/* Títulos */
+h1, h2, h3 { line-height: 1.2; }
+.titulo { color: var(--rojo); text-align: center; margin: 2.75rem 0 0; font-size: clamp(1.5rem, 3vw, 2rem); }
+.titulo-izq { text-align: left; }
+.titulo-grande { font-size: clamp(2rem, 5vw, 3rem); }
+.titulo-indigo { color: var(--indigo); margin-top: 2rem; }
+.intro { text-align: center; max-width: 72ch; margin: 2rem auto 0; }
+.intro h1 { color: var(--indigo); font-size: clamp(2rem, 5vw, 2.75rem); font-weight: 800; margin-bottom: .75rem; }
+
+/* Tarjetas y rejillas */
+.rejilla { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
+.tarjeta { display: flex; flex-direction: column; gap: .5rem; }
+.tarjeta-enlace { color: inherit; text-decoration: none; }
+.tarjeta h3 { font-size: 1.05rem; margin: .6rem 0 0; color: var(--texto); }
+.tarjeta img, .img-placeholder { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 4px; }
+.img-placeholder { background: #e3e3ea; }
+.meta { display: flex; gap: .75rem; margin: 0; color: var(--gris); font-size: .875rem; }
+.meta span { font-weight: 600; color: var(--indigo); }
+
+.btn-fav { align-self: flex-start; font: inherit; font-size: .875rem; padding: .3rem .8rem; border: 1px solid var(--indigo); border-radius: 999px; background: #fff; color: var(--indigo); cursor: pointer; }
+.btn-fav[aria-pressed="true"] { background: var(--indigo); color: #fff; }
+
+.btn { display: inline-block; font: inherit; font-weight: 600; padding: .65rem 1.3rem; border-radius: var(--radio); border: 0; text-decoration: none; cursor: pointer; }
+.btn-rojo { background: var(--rojo); color: #fff; }
+.btn-rojo:hover { background: var(--rojo-oscuro); }
+.btn-claro { background: #efefef; color: var(--texto); }
+.btn-indigo { background: var(--indigo); color: #fff; }
+.btn-negro { background: #000; color: #fff; }
+.ancho { width: 100%; }
+
+/* Temas de interés: texto a la izquierda, imagen a la derecha */
+.temas { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; margin-top: 3rem; }
+.temas-img { width: 100%; border-radius: var(--radio); }
+.temas-texto .titulo { text-align: left; margin-top: 0; }
+.temas-lista { list-style: none; margin: 1.25rem 0; padding: 0; display: grid; gap: .9rem; }
+.temas-lista a { display: block; text-decoration: none; }
+.temas-lista strong { display: block; color: var(--indigo); }
+.temas-lista span { color: var(--gris); font-size: .9rem; }
+
+/* Opiniones */
+.opinion { margin: 0; padding: 1.25rem; border: 1px solid var(--borde); border-radius: 12px; }
+.opinion blockquote { margin: 0 0 1rem; font-weight: 600; }
+.opinion figcaption { font-size: .875rem; color: var(--gris); }
+
+/* Filtros y detalle */
+.filtros { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1rem; margin: 1.5rem 0; }
+.filtros select { font: inherit; padding: .4rem .6rem; border: 1px solid #cfcfda; border-radius: var(--radio); }
+.check { display: flex; gap: .4rem; align-items: center; }
+.detalle { max-width: 70ch; margin: 1rem auto 0; }
+.detalle h1 { color: var(--indigo); }
+.detalle img { margin-block: 1rem; border-radius: var(--radio); }
+.volver { display: inline-block; margin-top: 1.5rem; }
+.fuente { font-size: .875rem; color: var(--gris); }
+.vacio { padding: 2rem 0; color: var(--gris); }
+.error-global { background: #fde8ea; color: var(--error); padding: 1rem; border-radius: var(--radio); }
+.acerca { max-width: 80ch; }
+
+/* Formularios */
+.formulario { max-width: 520px; margin-block: 2rem; }
+.formulario h3 { color: var(--indigo); }
+.fila { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.campo { margin-bottom: 1rem; }
+.campo label { display: block; font-size: .875rem; font-weight: 600; margin-bottom: .25rem; }
+.campo input, .campo textarea { width: 100%; font: inherit; padding: .6rem .75rem; border: 1px solid #cfcfda; border-radius: var(--radio); }
+.campo [aria-invalid="true"] { border-color: var(--error); }
+.error { color: var(--error); font-size: .85rem; margin: .25rem 0 0; min-height: 1.2em; }
+.estado { color: #14663a; font-weight: 600; }
+
+/* Agradecimiento y pie de página */
+.agradecimiento { background: var(--rosa-fuerte); margin-top: 3.5rem; padding-block: 1.75rem; }
+.cta-interno { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem; }
+.cta-interno p { margin: 0; font-size: 1.5rem; font-weight: 800; }
+.cta-botones { display: flex; flex-wrap: wrap; gap: .75rem; }
+.pie { padding-block: 2rem; }
+.footer-interno { display: grid; grid-template-columns: 1fr 2fr; gap: 1rem; }
+.logo-footer { margin: 0; font-weight: 600; }
+.pie dl { display: grid; grid-template-columns: max-content 1fr; gap: .4rem 3rem; margin: 0; font-size: .875rem; }
+.pie dt { color: var(--gris); }
+.pie dd { margin: 0; }
+
+@media (max-width: 700px) {
+  .temas, .fila, .footer-interno { grid-template-columns: 1fr; }
+}

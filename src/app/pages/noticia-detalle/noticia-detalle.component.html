@@ -1,0 +1,23 @@
+<a routerLink="/noticias" class="volver">← Volver a noticias</a>
+
+@if (noticia(); as n) {
+  <article class="detalle">
+    <h1>{{ n.titulo }}</h1>
+    <p class="meta">
+      <span>{{ n.categoria }}</span>
+      <time [attr.datetime]="n.fecha">{{ n.fecha | date: 'longDate' }}</time>
+    </p>
+    <img [src]="n.imagen" [alt]="n.titulo" />
+    @for (parrafo of n.contenido; track $index) {
+      <p>{{ parrafo }}</p>
+    }
+    <p class="fuente">
+      Fuente: <a [href]="n.url" target="_blank" rel="noopener noreferrer">{{ n.fuente }}</a>
+    </p>
+    <app-favorito-button [noticiaId]="n.id" />
+  </article>
+} @else if (!cargado()) {
+  <p class="vacio">Cargando noticia…</p>
+} @else {
+  <p class="vacio">No encontramos esa noticia. <a routerLink="/noticias">Ver todas</a></p>
+}

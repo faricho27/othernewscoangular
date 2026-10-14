@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" role="img" aria-label="Ilustración de temas de interés">
+  <rect width="640" height="520" rx="16" fill="#fdecec"/>
+  <ellipse cx="320" cy="440" rx="250" ry="34" fill="#f8c4c4"/>
+  <circle cx="470" cy="150" r="70" fill="#f0aaaa"/><circle cx="470" cy="150" r="40" fill="#fdecec"/>
+  <rect x="140" y="300" width="300" height="34" rx="6" fill="#404098"/>
+  <rect x="160" y="266" width="260" height="34" rx="6" fill="#d81010"/>
+  <rect x="180" y="232" width="220" height="34" rx="6" fill="#f0aaaa"/>
+  <rect x="60" y="330" width="230" height="120" rx="10" fill="#2b2b3a"/><rect x="74" y="342" width="202" height="96" rx="4" fill="#5b5b78"/>
+  <rect x="330" y="340" width="120" height="100" rx="14" fill="#404098"/><circle cx="390" cy="330" r="34" fill="#2b2b3a"/><circle cx="390" cy="330" r="16" fill="#f8c4c4"/>
+  <rect x="110" y="150" width="70" height="120" rx="20" fill="#d81010"/><rect x="122" y="130" width="46" height="24" rx="8" fill="#2b2b3a"/>
+  <path d="M520 330l60-40-20 70z" fill="#404098"/>
+</svg>

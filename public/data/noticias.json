@@ -1,0 +1,162 @@
+{
+  "noticias": [
+    {
+      "id": "enjambre-sismico-chaparral",
+      "titulo": "Chaparral, Tolima, sigue con sismos casi dos meses después del terremoto de Chocó",
+      "categoria": "Nacional",
+      "fecha": "2026-09-27",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/colombia/2026/09/23/volvio-a-temblar-en-colombia-un-sismo-de-magnitud-45-sacudio-los-departamentos-de-tolima-y-quindio/",
+      "imagen": "img/enjambre-sismico-chaparral.jpg",
+      "resumen": "Desde el 20 de septiembre, el municipio acumula más de 200 sismos superficiales; este domingo se reportaron dos más.",
+      "contenido": [
+        "El municipio de Chaparral, en Tolima, registra desde la madrugada del 20 de septiembre una secuencia de sismos superficiales que ya supera los 200 eventos de magnitud igual o superior a 2,0. Los expertos la describen como un enjambre sísmico, es decir, muchos temblores en poco tiempo sin un terremoto principal, y señalan que podría estar relacionada con los cambios geológicos posteriores al terremoto del 10 de agosto.",
+        "El 23 de septiembre, un sismo de magnitud 4,5 se sintió en Tolima y Quindío. Hubo evacuaciones preventivas en varias ciudades y, según los primeros reportes, no se registraron heridos ni daños en estructuras.",
+        "En la madrugada de este domingo 27 de septiembre, el Servicio Geológico Colombiano (SGC) reportó dos nuevos temblores en Chaparral: uno de magnitud 3,3 a las 5:04 a. m. y otro de magnitud 3,1 a las 5:56 a. m.",
+        "El terremoto del 10 de agosto, de magnitud 7,4 y con epicentro en San José del Palmar, Chocó, dejó más de 300 personas muertas y más de 60.000 familias damnificadas en el Pacífico y el Eje Cafetero."
+      ]
+    },
+    {
+      "id": "semana-bicicleta-bogota",
+      "titulo": "Cerca de 3.000 personas inauguraron las semanas de la Bicicleta y la Seguridad Vial en Bogotá",
+      "categoria": "Nacional",
+      "fecha": "2026-09-27",
+      "fuente": "Bogota.gov.co",
+      "url": "https://bogota.gov.co/mi-ciudad/movilidad/en-vivo-movilidad-bogota-y-transmilenio-hoy-27-de-septiembre-de-2026",
+      "imagen": "img/semana-bicicleta-bogota.jpg",
+      "resumen": "La capital dio inicio a dos semanas de actividades enfocadas en la movilidad en bicicleta y la seguridad vial.",
+      "contenido": [
+        "Bogotá arrancó las semanas de la Bicicleta y de la Seguridad Vial con la participación de cerca de 3.000 personas, según el reporte de movilidad de la Alcaldía.",
+        "Consulta el reporte de la Secretaría de Movilidad para conocer el estado de las vías y de TransMilenio durante el día."
+      ]
+    },
+    {
+      "id": "colombia-mexico-amistoso",
+      "titulo": "La Selección Colombia empató 1-1 con México en su primer amistoso de la gira por Estados Unidos",
+      "categoria": "Deportes",
+      "fecha": "2026-09-26",
+      "fuente": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/",
+      "imagen": "img/colombia-mexico-amistoso.jpg",
+      "resumen": "El equipo de Néstor Lorenzo abrió una nueva etapa sin James Rodríguez ni Juan Fernando Quintero.",
+      "contenido": [
+        "La Selección Colombia de mayores igualó 1-1 frente a México en Baltimore, en el primero de tres amistosos programados en Estados Unidos.",
+        "El técnico Néstor Lorenzo inicia un recambio pensando en la Copa América de 2028 y en las Eliminatorias al Mundial de 2030. La convocatoria de 26 jugadores combina futbolistas con recorrido internacional y nombres que buscan consolidarse. James Rodríguez y Juan Fernando Quintero anunciaron su retiro de la Selección.",
+        "El equipo también jugará contra Paraguay y Perú en esta gira."
+      ]
+    },
+    {
+      "id": "sub20-femenina-podio",
+      "titulo": "La Selección Colombia femenina Sub-20 cerró el Mundial con victoria ante Italia",
+      "categoria": "Deportes",
+      "fecha": "2026-09-26",
+      "fuente": "Publimetro",
+      "url": "https://www.publimetro.co/deportes/",
+      "imagen": "img/sub20-femenina-podio.jpg",
+      "resumen": "El equipo colombiano se impuso a Italia en el partido por el tercer puesto del Mundial Sub-20.",
+      "contenido": [
+        "La Tricolor femenina Sub-20, dirigida por Carlos Paniagua, terminó su participación en el Mundial con una victoria sobre Italia en el partido por el tercer puesto.",
+        "Con este resultado, la selección subió al podio, un logro histórico según los medios deportivos."
+      ]
+    },
+    {
+      "id": "inflacion-fedesarrollo",
+      "titulo": "Analistas prevén que la inflación en Colombia cierre 2026 en 6,82 %",
+      "categoria": "Economía",
+      "fecha": "2026-09-23",
+      "fuente": "El Espectador",
+      "url": "https://www.elespectador.com/economia/macroeconomia/la-inflacion-en-colombia-cerraria-el-ano-en-682-fedesarrollo/",
+      "imagen": "img/inflacion-fedesarrollo.jpg",
+      "resumen": "La encuesta financiera de Fedesarrollo de septiembre anticipa una leve tendencia al alza de los precios.",
+      "contenido": [
+        "Según la Encuesta de Opinión Financiera de Fedesarrollo, los analistas esperan que la inflación de Colombia cierre el año en 6,82 %. Para el dólar, la mediana de los analistas apunta a unos 3.126 pesos en septiembre, dentro de un rango de 3.102 a 3.184 pesos, y a unos 3.240 pesos en diciembre.",
+        "El DANE reportó que en agosto de 2026 el IPC subió 0,39 % en el mes y 6,24 % en los últimos doce meses. En el mercado laboral, la tasa de desocupación de julio fue de 8,1 %, frente a 8,8 % en el mismo mes de 2025."
+      ]
+    },
+    {
+      "id": "pisa-2025-colombia",
+      "titulo": "Pruebas PISA 2025: Colombia sigue por debajo del promedio de la OCDE",
+      "categoria": "Educación",
+      "fecha": "2026-09-08",
+      "fuente": "Kienyke",
+      "url": "https://www.kienyke.com/colombia/pruebas-pisa-2025-resultados-de-colombia-en-matematicas-lectura-y-ciencias",
+      "imagen": "img/pisa-2025-colombia.jpg",
+      "resumen": "Los estudiantes de 15 años bajaron en lectura y matemáticas y mejoraron levemente en ciencias.",
+      "contenido": [
+        "La OCDE publicó el 8 de septiembre los resultados de PISA 2025. Los estudiantes colombianos de 15 años obtuvieron 381 puntos en matemáticas, 399 en lectura y 414 en ciencias, por debajo del promedio de la OCDE (463, 461 y 482).",
+        "Frente a 2022, el país bajó en lectura y matemáticas y mejoró levemente en ciencias. En matemáticas, cerca de siete de cada diez estudiantes no alcanzó el nivel mínimo de desempeño.",
+        "La prueba evaluó a más de 760.000 estudiantes de 91 países y economías."
+      ]
+    },
+    {
+      "id": "cine-colombiano-san-sebastian",
+      "titulo": "Cine colombiano en San Sebastián: 'Cinco años, cuatro meses' se presentó en el festival",
+      "categoria": "Entretenimiento",
+      "fecha": "2026-09-20",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/",
+      "imagen": "img/cine-colombiano-san-sebastian.jpg",
+      "resumen": "La película colombiana llegó a la 74.ª edición del Festival Internacional de Cine de San Sebastián.",
+      "contenido": [
+        "Sus realizadores, entre ellos los directores Juan Miguel Gelacio y Esteban Hoyos y la actriz Carmina Martínez, hablaron sobre la película durante el festival, que se realizó en San Sebastián, España.",
+        "La historia sigue a mujeres que buscan a sus seres queridos y mezcla la frontera entre los vivos y los muertos."
+      ]
+    },
+    {
+      "id": "cristian-belec",
+      "titulo": "Falleció a los 47 años Cristian Belec, modelo y actor argentino",
+      "categoria": "Entretenimiento",
+      "fecha": "2026-09-14",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/cultura/entretenimiento/fallecio-a-sus-47-anos-cristian-belec-el-modelo-y-actor-argentino-reconocido-por-ser-doble-de-riesgo-en-la-pelicula-x-men-primera-generacion-3585866",
+      "imagen": "img/belec.jpg",
+      "resumen": "La Asociación Argentina de Actores confirmó la muerte del modelo y actor, conocido por su trabajo como doble de riesgo.",
+      "contenido": [
+        "La Asociación Argentina de Actores informó el fallecimiento del actor y modelo Cristian Belec, a los 47 años.",
+        "Belec era reconocido por su participación como doble de riesgo en producciones internacionales, entre ellas X-Men: Primera generación.",
+        "Hasta el momento no se han revelado las causas de su muerte. Sus colegas lo recordaron por una carrera que combinó publicidad, cine, televisión y moda."
+      ]
+    },
+    {
+      "id": "rybakina-us-open",
+      "titulo": "Elena Rybakina se corona campeona en el US Open",
+      "categoria": "Deportes",
+      "fecha": "2026-09-12",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/deportes/tenis/elena-rybakina-se-corona-campeona-en-el-us-open-y-asume-el-numero-uno-del-tenis-femenino-video-3585653",
+      "imagen": "img/rybakina.jpg",
+      "resumen": "La tenista kazaja superó en la final a Aryna Sabalenka y asumió el número uno del ranking femenino.",
+      "contenido": [
+        "La kazaja Elena Rybakina conquistó el US Open al vencer en la final a la bielorrusa Aryna Sabalenka.",
+        "Con este título logró su primer trofeo en Nueva York y asumió el primer lugar del tenis femenino."
+      ]
+    },
+    {
+      "id": "iphone-duo",
+      "titulo": "¿Con cuántos salarios se puede comprar el iPhone Duo?",
+      "categoria": "Tecnología",
+      "fecha": "2026-09-10",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/tecnosfera/dispositivos/con-cuantos-salarios-minimos-se-puede-comprar-el-iphone-duo-vea-los-precios-oficiales-del-iphone-18-pro-max-3585157",
+      "imagen": "img/iphone-duo.jpg",
+      "resumen": "Tras el evento de Apple, calculamos cuántos salarios mínimos cuestan los nuevos modelos en Colombia.",
+      "contenido": [
+        "Apple presentó sus nuevos modelos de iPhone, incluido el iPhone Duo, un equipo plegable.",
+        "El artículo original compara los precios oficiales con el salario mínimo para dimensionar cuánto cuesta cada modelo en el país."
+      ]
+    }
+  ],
+  "temas": [
+    { "id": "nacional", "nombre": "Nacional", "categoria": "Nacional", "descripcion": "Lo que pasa en Colombia, en tu ciudad y en tu región." },
+    { "id": "economia", "nombre": "Economía", "categoria": "Economía", "descripcion": "Inflación, dólar y empleo explicados de forma sencilla." },
+    { "id": "educacion", "nombre": "Educación", "categoria": "Educación", "descripcion": "Resultados, pruebas y noticias del sistema educativo." },
+    { "id": "deportes", "nombre": "Deportes", "categoria": "Deportes", "descripcion": "Te mantenemos al día en noticias deportivas con todos los detalles." },
+    { "id": "entretenimiento", "nombre": "Entretenimiento", "categoria": "Entretenimiento", "descripcion": "Te traemos de primera mano las últimas actualizaciones del mundo de la fama." },
+    { "id": "tecnologia", "nombre": "Tecnología", "categoria": "Tecnología", "descripcion": "Conoce aquí todas las innovaciones tecnológicas." }
+  ],
+  "opiniones": [
+    { "autor": "Lector", "rol": "Suscriptor", "texto": "Excelente fuente de información" },
+    { "autor": "Lector", "rol": "Suscriptor", "texto": "Gracias por siempre mantenernos al día con información confiable" },
+    { "autor": "Lector", "rol": "Suscriptor", "texto": "OtherNewsCO sin duda alguna el mejor noticiero" }
+  ]
+}
